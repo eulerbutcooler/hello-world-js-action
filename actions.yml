@@ -1,0 +1,13 @@
+name: "Ji boliye"
+inputs:
+  who-to-greet:
+    description: "Kisko karun greet"
+    required: true
+    type: string
+    default: "Greetu"
+outputs:
+  greeting:
+    description: "Greet kiya gaya inhe"
+runs:
+  using: "node20"
+  main: "index.js"
